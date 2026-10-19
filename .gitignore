@@ -1,0 +1,4 @@
+/.lake/
+/_out/
+# The repository-wide `.gitignore` ignores lake manifests; this one pins the Verso commit.
+!/lake-manifest.json

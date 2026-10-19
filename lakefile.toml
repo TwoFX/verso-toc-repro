@@ -1,0 +1,14 @@
+name = "repro"
+defaultTargets = ["repro"]
+
+[[require]]
+name = "verso"
+git = "https://github.com/leanprover/verso"
+rev = "main"
+
+[[lean_lib]]
+name = "Repro"
+
+[[lean_exe]]
+name = "repro"
+root = "Main"
